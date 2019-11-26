@@ -23,7 +23,7 @@ class Artist
 
   def self.find_or_create_by_name(name)
     tester = name.split(" - ")[0]
-    binding.pry 
+    binding.pry
   end
 
 end
