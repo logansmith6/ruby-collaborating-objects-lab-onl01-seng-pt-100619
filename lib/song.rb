@@ -9,6 +9,9 @@ class Song
     @name = name
   end
 
+  def self.all 
+    self 
+  end 
 
 
 
