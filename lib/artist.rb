@@ -28,7 +28,7 @@ class Artist
   end
 
   def print_songs
-    Song.all
+    Song.all.select {|song| song }
   end
 
 end
