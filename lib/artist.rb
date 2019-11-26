@@ -1,6 +1,6 @@
 require 'pry'
 
-class Arist
+class Artist
   attr_accessor :name
   @@all = []
 
