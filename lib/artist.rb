@@ -23,11 +23,11 @@ class Artist
 
   def self.find_or_create_by_name(name)
     tester = name.split(" - ")[0]
-    @@all.each do |artists|
-      if tester == artists
+    Song.all.each do |artists|
+      if tester == artists.artist 
         artists
       else
-        @@all << tester
+        artists.artist << tester
       end
     end
 
