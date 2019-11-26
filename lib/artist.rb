@@ -25,7 +25,7 @@ class Artist
     @@all.each do |artists|
       if artists == name
         initialize(name)
-        self 
+        self
       end
     end
 
