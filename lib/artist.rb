@@ -24,7 +24,8 @@ class Artist
   def self.find_or_create_by_name(name)
     @@all.each do |artists|
       if artists == name
-        self.artists
+        initialize(name)
+        self 
       end
     end
 
