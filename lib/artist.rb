@@ -25,11 +25,11 @@ class Artist
     tester = name.split(" - ")[0]
     @all.each do |artists|
       if tester == artists
-        tester 
-      else 
-        @@all << tester 
-      end 
-        
+        tester
+      else
+        @@all << tester
+      end
+
     #binding.pry
   end
 
