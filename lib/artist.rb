@@ -31,7 +31,7 @@ class Artist
       end
     end
 
-    #binding.pry
+    binding.pry
   end
 
 end
