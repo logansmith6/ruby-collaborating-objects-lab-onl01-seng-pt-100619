@@ -1,12 +1,12 @@
 require 'pry'
 
-class Arist 
-  attr_accessor :name 
+class Arist
+  attr_accessor :name
   @@all = []
 
   def initialize(name)
-    @name = name 
-    @@all << self 
+    @name = name
+    @@all << self
   end
-  
+
 end 
