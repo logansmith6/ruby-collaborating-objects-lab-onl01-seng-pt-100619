@@ -30,7 +30,7 @@ class Artist
         @@all << tester
       end
     end
-    tester
+    
     #binding.pry
   end
 
