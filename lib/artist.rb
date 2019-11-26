@@ -25,7 +25,7 @@ class Artist
     tester = name.split(" - ")[0]
     @@all.each do |artists|
       if tester == artists
-        artists 
+        artists
       else
         @@all << tester
       end
