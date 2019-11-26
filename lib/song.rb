@@ -19,6 +19,10 @@ class Song
     @@all
   end
 
+  def new_by_filename(file)
+    splitter = file.split(" - ")
+  end
+
 
 
 
