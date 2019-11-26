@@ -12,7 +12,7 @@ class MP3Importer
     filenames = Dir.chdir(@path) do |path|
       Dir.glob("*.mp3")
     end
-    filename
+    filenames
   end
 
 end
